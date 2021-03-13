@@ -14,9 +14,7 @@ line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(settings.LINE_CHANNEL_SECRET)
 
 # mongodb altas
-# client = MongoClient("mongodb+srv://hao:test@clusterlinebot.ae5ji.mongodb.net/test", ssl=True, ssl_cert_reqs='CERT_NONE')
-client = MongoClient("mongodb+srv://hao:test@clusterlinebot.ae5ji.mongodb.net/test?retryWrites=true&w=majority")
-
+client = MongoClient("mongodb+srv://<UserName>:<Password>@<NameOfCluster>.ae5ji.mongodb.net/<NameOfDatabase>?retryWrites=true&w=majority")
 database = client.test
 collection = database.test1
 

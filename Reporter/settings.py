@@ -31,13 +31,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #允許的網域名稱
 ALLOWED_HOSTS = [
-    'reporterlinebot.herokuapp.com',
-    '7cd70024d554.ngrok.io'
+    'reporterlinebot.herokuapp.com'
 ]
 
 # Line token
-LINE_CHANNEL_ACCESS_TOKEN = 'kUtqSEqNudML0Vmj61GgCh65P0DA2SzoqLWklwYXuY4yA0ukiRnmkami01T5hZqXUhfMnHu9RLxr3Dk2scenteiWsoMWy/i57KSTIsuM1dlkOPFXShsmdQWtTEMahwF2RQoXZwvsMAZPFc2UJJPlgQdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'c484f3cb5b51517e3100c09ea45af330'
+LINE_CHANNEL_ACCESS_TOKEN = 'YOUR_TOKEN'
+LINE_CHANNEL_SECRET = 'YOUR_SECRET'
 
 # Application definition
 
