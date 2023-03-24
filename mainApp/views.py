@@ -46,7 +46,7 @@ def handle_message(event: MessageEvent):
         group_id = event.source.user_id
 
     if message == "使用說明":
-        result = "初次使用請先輸入本班五碼學號範圍，格式如下：\n學號範圍：xxxxx-xxxxx\n\n接著輸入「確認學號範圍」檢查輸入是否正確。\n\n完成以上動作後可開始回報，輸入「他媽的回報」後，機器人便會按照學號順序進行統整；若尚未回報完，則機器人會回覆尚未回報之學號。"
+        result = "初次使用請先輸入本班五碼學號範圍，格式如下：\n學號範圍：xxxxx-xxxxx\n\n接著輸入「確認學號範圍」檢查輸入是否正確。\n\n完成以上動作後可開始回報，格式：\n時間：20:00\n學號：xxxxx\n姓名：xxx\n電話：09xxxxxxxx\n現在位置：在家\n現在在幹嘛：休息\n跟誰：家人\n身體狀況：良好\n\n輸入「他媽的回報」，機器人便會按照學號順序進行統整；若尚未回報完，則機器人會回覆尚未回報之學號。\n\n輸入「使用說明」，機器人會回傳以上內容。"
         line_bot_api.reply_message(
             reply_token=event.reply_token, messages=TextSendMessage(text=result)
         )
