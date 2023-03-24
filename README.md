@@ -6,6 +6,7 @@
 主要用的是 Django + MongoDB。<br>
 
 掃描 QRcode，把機器人加入群組。
+![image](https://github.com/I-am-ZiHao/Reporter/blob/master/408jfqaj.png)
 
 初次使用請先輸入本班五碼學號範圍，格式如下：<br>
 學號範圍：xxxxx-xxxxx<br>

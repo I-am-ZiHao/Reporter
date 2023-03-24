@@ -35,7 +35,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # ALLOWED HOSTS
 ALLOWED_HOSTS = [
     "reporterlinebot.herokuapp.com",
-    "9ed4-2407-4d00-2c03-7f10-2806-98f4-3894-d825.ngrok.io",
 ]
 
 # DB
